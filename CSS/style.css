@@ -4,10 +4,39 @@
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	min-height: 15%;
-	background-color: #0F0;
+	background-color: #006600;
+	border-bottom:3px double #f00;
 }
 
-h1 {
-	margin: 0;
+.top_head {
+	vertical-align: top;
+	display: inline-block;
 }
+
+h1#title{
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;	
+	color: #fffa00;
+	font-size: 320%;
+}
+
+#logo_EME{
+	background-color: #fff;
+	width: 25%;
+	text-align: center;
+	padding-top: 1em;
+}
+
+#logoExercito {
+	width: 65%;
+}
+
+#title_Page {	
+	line-height: 100%;
+	margin-left: 7%;
+	margin-top: 7.5%;
+}
+
+/* =============================================================================================== */
+/* MEDIA QUERY */
