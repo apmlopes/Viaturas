@@ -1,11 +1,17 @@
 /* Style for Viaturas Temp */
 
+body{
+}
+
 .container_head {
+	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 	width: 100%;
+	max-height: 152px;
 	background-color: #006600;
 	border-bottom:3px double #f00;
+	font-family: 'BebasNeue', sans-serif;
 }
 
 .top_head {
@@ -23,7 +29,7 @@ h1#title{
 
 #logo_EME{
 	background-color: #fff;
-	width: 25%;
+	max-width: 25%;
 	text-align: center;
 	padding-top: 1em;
 }
@@ -40,3 +46,16 @@ h1#title{
 
 /* =============================================================================================== */
 /* MEDIA QUERY */
+
+@media screen and (min-width:1350px) {
+
+	h1#title{
+		font-size: 400%;
+	}
+
+	#title_Page{
+		margin-left: 4.5%;
+		margin-top: 5%;
+	}
+	
+}
