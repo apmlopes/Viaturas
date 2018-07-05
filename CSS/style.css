@@ -1,4 +1,7 @@
 /* Style for Viaturas Temp */
+* , html , body {
+	box-sizing: border-box;
+}
 
 body{
 	background:url('../img/BrasaoExercito.png');
@@ -61,5 +64,4 @@ h1#title{
 		margin-left: 4.5%;
 		margin-top: 5%;
 	}
-	
 }
