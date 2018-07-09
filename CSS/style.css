@@ -2,12 +2,20 @@
 * , html , body {
 	box-sizing: border-box;
 }
+#brasaoEstadoMaior {
+	display: block;
+	margin: auto;
+	width: 40%;
+	opacity: 0.4;
+}
 
-body{
-	background:url('../img/BrasaoExercito.png');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
+#backgoundImage {
+	display: block;
+	position: absolute;
+	z-index: 1;
+}
+
+#bodymain {
 }
 
 .container_head {
