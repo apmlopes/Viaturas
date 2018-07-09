@@ -2,20 +2,30 @@
 * , html , body {
 	box-sizing: border-box;
 }
-#brasaoEstadoMaior {
+
+.container_body {
+	padding-top: 152px;
+}
+
+img#brasaoEstadoMaior {
 	display: block;
-	margin: auto;
+	margin: 0 auto;
 	width: 40%;
 	opacity: 0.4;
 }
 
 #backgoundImage {
+	width: 100%;
+	margin: 0 auto;
 	display: block;
-	position: absolute;
-	z-index: 1;
+	position:fixed;
+	z-index: -1;
 }
 
-#bodymain {
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 .container_head {
@@ -71,5 +81,9 @@ h1#title{
 	#title_Page{
 		margin-left: 4.5%;
 		margin-top: 5%;
+	}
+
+	img#brasaoEstadoMaior{
+		width: 30%;
 	}
 }
