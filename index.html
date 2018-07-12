@@ -6,6 +6,7 @@
 		<title>Viaturas</title>
 		<link rel="stylesheet" href="CSS/normalize.css">
 		<link rel="stylesheet" href="CSS/style.css">
+		<link rel="stylesheet" href="CSS/indexMain.css">
 		<link rel="stylesheet" href="fonts/BebasNeue/BebasNeue.otf">
 	</head>
 	<body>
@@ -19,7 +20,13 @@
 					<h1 id="title">Viaturas</h1>
 				</div>
 
-				<div id="login" class="top_head"></div>
+				<div id="login" class="top_head">
+					<p>USER:</p>
+					<input id="user">
+					<p>PASSWORD:</p>
+					<input id="pass" type="password">
+					<a href="#" onClick="KeyBoardHandler(event);">LOGIN</a>
+				</div>
 			</div>
 		</header>
 		<div class="container_body">
@@ -29,5 +36,8 @@
 			<div id="bodymain">
 			</div>
 		</div>
+
+		<!---SCRIPTS---->
+		<script src="scripts/login.js"></script>
 	</body>
 </html>

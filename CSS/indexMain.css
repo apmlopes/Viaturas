@@ -1,2 +1,39 @@
 /* Main CSS */
 
+#login {
+	margin-top: 7.5%;
+	margin-left: 2.5%;
+}
+
+#login > * {
+	display: inline-block;
+	font-family: 'BebasNeue', sans-serif;
+}
+
+#login input {
+	width:170px;
+}
+
+#login p {
+	color: #fffa00;
+	font-size: 75%;
+}
+
+#login a {
+	color: #fffa00;
+	padding: 5px;
+	margin-left: 5px;
+	border:solid 2px #fffa00 ;
+}
+
+#login a:hover {
+	color: #f00;
+	border-color: #f00;
+}
+
+@media screen and (min-width:1350px) {
+	#login{
+		margin-top: 5%;
+		margin-left: 7%;
+	}
+}
